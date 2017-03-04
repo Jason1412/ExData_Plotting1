@@ -16,6 +16,9 @@ png("plot4.png", width = 480, height = 480)
 
 # Create 4 subplots 
 par(mfrow = c(2,2))
+
+
+
 # Figure 1
 with(sub_data, plot(time_series, as.numeric(Global_active_power), type ='l', 
                     ylab = "Global Active Power (kilowatts)"))
